@@ -7,6 +7,12 @@ var working_dir = <?php echo json_encode($paths['action_path']); ?>;
 </script>
 <?php
 
+//http://stackoverflow.com/questions/11072763/get-folder-name-of-current-directory
+//Notice: Undefined index: PATH_INFO in C:\p2\xampp\htdocs\dgnote144b\modules\multipleautocomplete\multipleautocomplete.php on line 11  
+//Notice: Undefined index: dirname in C:\p2\xampp\htdocs\dgnote144b\modules\multipleautocomplete\multipleautocomplete.php on line 12
+//$path_parts = pathinfo($_SERVER["PATH_INFO"]);
+//$dir1 = $path_parts["dirname"];
+
 //write log info
 //$app = Dataface_Application::getInstance();
 $handle = fopen("tmp_log_mac1.txt", 'w');

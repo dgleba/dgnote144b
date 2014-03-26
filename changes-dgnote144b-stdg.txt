@@ -1,4 +1,21 @@
 
+~=-=-=-=-=-=~ 
+2014-03-26_Wed_16.32-PM
+
+we can store xataface path in a cookie
+
+DATAFACE_URL = '/xataface'; 
+
+we can look for the module in 
+dgnote144b\modules and if it is not then look in xataface\modules
+
+==
+
+docroot= C:/p2/xampp/htdocs 
+substr= \dgnote144b\modules\multipleautocomplete\actions 
+url= http://localhost/dgnote144b/modules/multipleautocomplete/actions/action_multipleautocomplete.php?term=2 
+path1= dgnote144b 
+
 
 ~=-=-=-=-=-=~ 
 

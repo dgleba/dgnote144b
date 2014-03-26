@@ -13,12 +13,17 @@ return $url;
 }
 
 $cururl = curPageURL();
-
 $array = explode('/',$cururl);
 $count = count($array);
 $path1 = $array[3];
 
-////write log info
+//http://stackoverflow.com/questions/11072763/get-folder-name-of-current-directory
+//$path_parts = pathinfo($_SERVER["PATH_INFO"]);
+//$dir1 = $path_parts['dirname'];
+
+
+//
+//write log info
 //$app = Dataface_Application::getInstance();
 $handle = fopen("tmp_log_actionmac.txt", 'w');
 fwrite($handle, "action_mac" . PHP_EOL);
@@ -27,7 +32,7 @@ fwrite($handle, "docroot= " . $_SERVER['DOCUMENT_ROOT'] . ' ' . PHP_EOL);
 fwrite($handle, "substr= " . substr(dirname(__FILE__), strlen($_SERVER['DOCUMENT_ROOT'])) . ' ' . PHP_EOL);
 fwrite($handle, "url= " . $cururl . ' ' . PHP_EOL);
 fwrite($handle, "path1= " . $path1 . ' ' . PHP_EOL);
-
+//fwrite($handle, "dir1= " . $dir1 . ' ' . PHP_EOL);
 //fwrite($handle, "dfsitepath" .  DATAFACE_SITE_PATH . PHP_EOL);
 //fwrite($handle,   DATAFACE_SITE_PATH );
 fclose($handle);
@@ -66,7 +71,5 @@ if ($conn)
     array_push($return_arr, $row_array);
   }
 }
-
-
 
 echo json_encode($return_arr);

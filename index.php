@@ -1,11 +1,11 @@
 <?php
 
-//report all errors for debugging...
-//error_reporting(E_ALL);
-//ini_set('display_errors', 'on');
 //don't show strict warnings.  xataface group.. Re: Getting messages: Strict Standards: Only variables should be assigned by reference errors
 ini_set('display_errors', '0');     # don't show any errors...
 error_reporting(E_ALL | E_STRICT);  # ...but do log them
+//report all errors for debugging...
+error_reporting(E_ALL);
+ini_set('display_errors', 'on');
 
 
 //Main Application access point

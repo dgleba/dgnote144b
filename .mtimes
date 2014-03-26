@@ -9,7 +9,6 @@
 1395682170|documents2/Screenshot - 3_24_2014 , 1_29_30 PM.png
 1395679878|documents2/multipleautocomplete,widget (1).png
 1395679844|documents2/multipleautocomplete,widget (more of screen).png
-1395679797|index.php
 1395679208|modules/multipleautocomplete/Readme.md
 1395322071|modules/multipleautocomplete/js/multipleautocomplete.js
 1395329129|modules/multipleautocomplete/multipleautocompletewidget.php
@@ -33,12 +32,13 @@
 1395531956|tables/vw_nte_note/valuelists.ini
 1395835550|version-dgnote144b.txt
 1395851401|readme.md
-1395852808|changes-dgnote144b-stdg.txt
 1395852872|modules/multipleautocomplete/actions/multipleautocompleteField_handler.php
-1395852661|modules/multipleautocomplete/multipleautocomplete.php
 1395853455|tmp_log_mac1.txt
 |version-dgnote144b-stdg.txt
 1395800786|documents2/7zxata-dgnote144b - redek,stdg.bat
 |documents2/7zxata-dgnote144b - redek.bat
-1395864313|modules/multipleautocomplete/actions/action_multipleautocomplete.php
-1395864411|modules/multipleautocomplete/actions/tmp_log_actionmac.txt
+1395866131|changes-dgnote144b-stdg.txt
+1395866874|index.php
+1395867013|modules/multipleautocomplete/actions/action_multipleautocomplete.php
+1395866842|modules/multipleautocomplete/actions/tmp_log_actionmac.txt
+1395867075|modules/multipleautocomplete/multipleautocomplete.php
