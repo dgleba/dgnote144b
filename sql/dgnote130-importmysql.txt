@@ -1,0 +1,4 @@
+
+C:\p2\xampp\mysql\bin\mysql.exe --user=root -p  dgnote130e < C:\p2\xampp\htdocs\dgnote144\sql\dgnote130e.sql
+
+

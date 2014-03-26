@@ -1,0 +1,6 @@
+
+[_database]
+    host="localhost"
+    name="dgnote130e"
+    user="auser"
+    password="x"

@@ -1,0 +1,39 @@
+1371616430|.gitattributes
+1395518944|.gitignore
+1381416414|.hgignore
+1380125024|.htaccess
+1335124642|Web.config
+1395802156|conf.ini
+1395679592|conf/ApplicationDelegate.php
+1395678025|config.dbc.example
+1395800786|documents2/7zxata-dgnote144b - redek.bat
+1395682170|documents2/Screenshot - 3_24_2014 , 1_29_30 PM.png
+1395679878|documents2/multipleautocomplete,widget (1).png
+1395679844|documents2/multipleautocomplete,widget (more of screen).png
+1395679797|index.php
+1395679208|modules/multipleautocomplete/Readme.md
+1395427244|modules/multipleautocomplete/actions/action_multipleautocomplete.php
+1395685822|modules/multipleautocomplete/actions/multipleautocompleteField_handler.php
+1395322071|modules/multipleautocomplete/js/multipleautocomplete.js
+1395704367|modules/multipleautocomplete/multipleautocomplete.php
+1395329129|modules/multipleautocomplete/multipleautocompletewidget.php
+1395327681|modules/multipleautocomplete/tests/debug.php
+1395685854|modules/multipleautocomplete/version.txt
+1395613228|modules/offline/mautocomplete_tags_list/actions/action_mac.php
+1395681383|modules/offline/mautocomplete_tags_list/actions/configphp.dbc.example
+1395800263|modules/offline/mautocomplete_tags_list/actions/tmp_log_actionmac.txt
+1395470006|modules/offline/mautocomplete_tags_list/js/macjs.js
+1395539577|modules/offline/mautocomplete_tags_list/mautocomplete_tags_list.php
+1395470072|modules/offline/mautocomplete_tags_list/widgetmac.php
+1395329691|paths.ini
+1395680182|sql/dgnote130-importmysql.txt
+1395679981|sql/dgnote130e.sql
+1395802096|tables/nte_note/fields.ini
+1395684526|tables/nte_note/nte_note.php
+1395531956|tables/nte_note/valuelists.ini
+1365436195|tables/offline.users/fields.ini
+1366920766|tables/offline.users/users.php
+1395678197|tables/vw_nte_note/fields.ini
+1395531956|tables/vw_nte_note/valuelists.ini
+1395835528|version-dgnote144b-stdg.txt
+1395835550|version-dgnote144b.txt
