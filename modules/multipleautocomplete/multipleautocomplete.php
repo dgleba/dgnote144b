@@ -6,6 +6,19 @@ setcookie("app_path", DATAFACE_SITE_PATH, 0, '/');
 var working_dir = <?php echo json_encode($paths['action_path']); ?>;
 </script>
 <?php
+
+//write log info
+//$app = Dataface_Application::getInstance();
+$handle = fopen("tmp_log_mac1.txt", 'w');
+fwrite($handle, "action_mac" . PHP_EOL);
+fwrite($handle, dirname(__FILE__) . ' ' . PHP_EOL);
+fwrite($handle, $_SERVER['DOCUMENT_ROOT'] . ' ' . PHP_EOL);
+fwrite($handle, substr(dirname(__FILE__), strlen($_SERVER['DOCUMENT_ROOT'])) . ' ' . PHP_EOL);
+//fwrite($handle, "dfsitepath" .  DATAFACE_SITE_PATH . PHP_EOL);
+fwrite($handle,   DATAFACE_SITE_PATH );
+fclose($handle);
+
+
 class modules_multipleautocomplete
 {
   private $baseURL = null;

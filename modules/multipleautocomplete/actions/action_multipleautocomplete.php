@@ -1,4 +1,9 @@
 <?php
+require_once "C:\\p2\\xampp\\htdocs\\xataface\\dataface-public-api.php";
+df_init("C:\\p2\\xampp\\htdocs\\dgnote144b\\xataface");
+$app = & Dataface_Application::getInstance();
+$app->display();
+
 $multipleautocomplete_field_name = $_COOKIE["field_name"];
 $multipleautocomplete_table_name = $_COOKIE["table_name"];
 $site_path = $_COOKIE["app_path"];
@@ -31,5 +36,16 @@ if ($conn)
     array_push($return_arr, $row_array);
   }
 }
+
+//write log info
+//$app = Dataface_Application::getInstance();
+$handle = fopen("tmp_log_actionmac.txt", 'w');
+fwrite($handle, "action_mac" . PHP_EOL);
+fwrite($handle, dirname(__FILE__) . ' ' . PHP_EOL);
+fwrite($handle, $_SERVER['DOCUMENT_ROOT'] . ' ' . PHP_EOL);
+fwrite($handle, substr(dirname(__FILE__), strlen($_SERVER['DOCUMENT_ROOT'])) . ' ' . PHP_EOL);
+//fwrite($handle, "dfsitepath" .  DATAFACE_SITE_PATH . PHP_EOL);
+//fwrite($handle,   DATAFACE_SITE_PATH );
+fclose($handle);
 
 echo json_encode($return_arr);

@@ -1,5 +1,10 @@
 
 
+~=-=-=-=-=-=~ 
+
 stdg. testing passing variables tween php files. 2014-03-26 2014-03-26_Wed_08.05-AM
+
+
+~=-=-=-=-=-=~ 
 
 1  - start 2014-03-24_Mon_12.22-PM
