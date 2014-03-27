@@ -2,6 +2,5 @@ action_mac
 _file_= C:\p2\xampp\htdocs\dgnote144b\modules\multipleautocomplete\actions 
 docroot= C:/p2/xampp/htdocs 
 substr= \dgnote144b\modules\multipleautocomplete\actions 
-url= http://localhost/dgnote144b/modules/multipleautocomplete/actions/action_multipleautocomplete.php?term=e 
+url= http://localhost/dgnote144b/modules/multipleautocomplete/actions/action_multipleautocomplete.php?term=w 
 path1= dgnote144b 
-dir1=  

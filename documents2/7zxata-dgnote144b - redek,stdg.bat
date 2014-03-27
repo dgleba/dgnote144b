@@ -3,7 +3,7 @@ c: & md c:\temp\ & cd c:\temp & md c:\temp\log & md c:\temp\log\"%dhms%"  & cd c
 :main
 rem ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 7
 
-mkdir c:\backup\dgnote130
+:mkdir c:\backup\dgnote130
 :echo ran,7zxata-dgnote144-1,%computername%,"%dhms%" >> C:\p2\xampp\htdocs\dgnote130\documents\bkuplogs\7zxata-dgnote130-runlog.%computername%.csv
 
 :robocopy C:\p2\xampp\htdocs\dgnote130 C:\n\Dropbox\csd\crepo\dgnote130\%computername%  /e /xd templates_c\ nbproject .svn\ /fft /dst /xo /ndl /np /r:0 /w:0 /tee /eta /log:"c:rb-130cn-%computername%,%dhms%"
