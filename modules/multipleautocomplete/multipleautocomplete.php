@@ -1,30 +1,16 @@
 <?php
-$paths = parse_ini_file(DATAFACE_SITE_PATH."/paths.ini");
-setcookie("app_path", DATAFACE_SITE_PATH, 0, '/');
+$working_dir = "modules/multipleautocomplete/actions";
+
+if (strpos(dirname(__FILE__), "xataface") !== false)
+{
+  $working_dir = "../xataface/" . $working_dir;
+}
+
 ?>
 <script>
-var working_dir = <?php echo json_encode($paths['action_path']); ?>;
+var working_dir = <?php echo json_encode($working_dir); ?>;
 </script>
 <?php
-
-//http://stackoverflow.com/questions/11072763/get-folder-name-of-current-directory
-//Notice: Undefined index: PATH_INFO in C:\p2\xampp\htdocs\dgnote144b\modules\multipleautocomplete\multipleautocomplete.php on line 11  
-//Notice: Undefined index: dirname in C:\p2\xampp\htdocs\dgnote144b\modules\multipleautocomplete\multipleautocomplete.php on line 12
-//$path_parts = pathinfo($_SERVER["PATH_INFO"]);
-//$dir1 = $path_parts["dirname"];
-
-//write log info
-//$app = Dataface_Application::getInstance();
-$handle = fopen("tmp_log_mac1.txt", 'w');
-fwrite($handle, "action_mac" . PHP_EOL);
-fwrite($handle, dirname(__FILE__) . ' ' . PHP_EOL);
-fwrite($handle, $_SERVER['DOCUMENT_ROOT'] . ' ' . PHP_EOL);
-fwrite($handle, substr(dirname(__FILE__), strlen($_SERVER['DOCUMENT_ROOT'])) . ' ' . PHP_EOL);
-//fwrite($handle, "dfsitepath" .  DATAFACE_SITE_PATH . PHP_EOL);
-fwrite($handle,   DATAFACE_SITE_PATH );
-fclose($handle);
-
-
 class modules_multipleautocomplete
 {
   private $baseURL = null;
