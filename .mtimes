@@ -12,7 +12,6 @@
 1395892533|documents2/7zxata-dgnote144b - redek,stdg.bat
 1|documents2/7zxata-dgnote144b - redek.bat
 1395685770|documents2/Screenshot - 3_24_2014 , 1_29_30 PM.png
-1396268735|documents2/dgnote144b log paths to temp file.php
 1396270745|documents2/gitgetclone-dgnote144b.bat
 1395683478|documents2/multipleautocomplete,widget (1).png
 1395683444|documents2/multipleautocomplete,widget (more of screen).png
@@ -25,7 +24,6 @@
 1396270752|modules/multipleautocomplete/actions/multipleautocompleteField_handler.php
 1395890919|modules/multipleautocomplete/actions/tmp_log_actionmac.txt
 1396270752|modules/multipleautocomplete/js/multipleautocomplete.js
-1396270752|modules/multipleautocomplete/multipleautocomplete.php
 1395329129|modules/multipleautocomplete/multipleautocompletewidget.php
 1395327681|modules/multipleautocomplete/tests/debug.php
 1396270752|modules/multipleautocomplete/version.txt
@@ -46,6 +44,13 @@
 1366920766|tables/offline.users/users.php
 1395678197|tables/vw_nte_note/fields.ini
 1395531956|tables/vw_nte_note/valuelists.ini
-1395884920|tmp_log_mac1.txt
 1396272442|version-dgnote144b-stdg.txt
 1396272464|version-dgnote144b.txt
+|documents2/dgnote144b log paths to temp file.php
+1396268735|documents2/examples/dgnote144b log paths to temp file-action_multipleautocomplete.php
+1396284795|documents2/examples/log paths to temp file,multipleautocomplete.php
+1396284750|documents2/examples/tmp_log_modules_multipleautocomplete.txt
+1395884920|logs/tmp_log_mac1.txt
+1396284750|logs/tmp_log_modules_multipleautocomplete.txt
+1396284795|modules/multipleautocomplete/multipleautocomplete.php
+|tmp_log_mac1.txt

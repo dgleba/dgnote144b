@@ -1,0 +1,14 @@
+info..
+_file_= C:\p2\xampp\htdocs\dgnote144b\modules\multipleautocomplete 
+docroot= C:/p2/xampp/htdocs 
+substr= \dgnote144b\modules\multipleautocomplete 
+url= http://localhost/dgnote144b/index.php?-action=new&-table=nte_note 
+pathapp= dgnote144b 
+path0= http: 
+path1=  
+path2= localhost 
+path3= dgnote144b 
+path4= index.php?-action=new&-table=nte_note 
+dfsitepath= C:/p2/xampp/htdocs/dgnote144b
+dfsiteurl= /dgnote144b
+dfurl= /xataface
