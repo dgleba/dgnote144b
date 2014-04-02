@@ -45,7 +45,6 @@
 1395678197|tables/vw_nte_note/fields.ini
 1395531956|tables/vw_nte_note/valuelists.ini
 1396272442|version-dgnote144b-stdg.txt
-1396272464|version-dgnote144b.txt
 |documents2/dgnote144b log paths to temp file.php
 1396268735|documents2/examples/dgnote144b log paths to temp file-action_multipleautocomplete.php
 1396284795|documents2/examples/log paths to temp file,multipleautocomplete.php
@@ -54,3 +53,4 @@
 1396284750|logs/tmp_log_modules_multipleautocomplete.txt
 1396284795|modules/multipleautocomplete/multipleautocomplete.php
 |tmp_log_mac1.txt
+1396457426|version-dgnote144b.txt
