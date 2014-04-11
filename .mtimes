@@ -1,5 +1,4 @@
 1371616430|.gitattributes
-1395518944|.gitignore
 1381416414|.hgignore
 1380125024|.htaccess
 1335124642|Web.config
@@ -54,3 +53,4 @@
 1396284795|modules/multipleautocomplete/multipleautocomplete.php
 |tmp_log_mac1.txt
 1396457426|version-dgnote144b.txt
+1396527996|.gitignore
